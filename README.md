@@ -52,3 +52,7 @@ Check your channellabels.txt file or edit load_dataCSC.m to be able to handle yo
 # Auxillary Tools
 There are some scripts for converting data from the Stanford format to other formats (Stanford2BIDS.m, Stanford2BIDS.sh, load_dataEDF.m) as well as some scripts for producing metrics (rather than QC documents) from raw data (avgstat_whiskerplot.m, avgstats.m, QC_excel_filler.m, QC_excel_filler.sh).
 
+# Example Document
+
+[Sample_QC.pdf](https://github.com/bragalab/eegqc/files/12666314/Sample_QC.pdf)
+
