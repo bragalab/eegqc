@@ -1,7 +1,7 @@
 # EEGQC
-The primary purpose EEGQC directory is to create quality control documents for
-individual iEEG datasets, utilizing parallel computing resources via SLURM workload manager.
-EEGQC.sh will search the raw data directory for unprocessed datasets, and then call QCpdf.sh
+The primary purpose EEGQC directory is to create quality control documents for individual iEEG datasets, utilizing
+parallel computing resources via SLURM workload manager. EEGQC.sh will search the raw data directory for unprocessed
+datasets, and then call QCpdf.sh
 to create each pdf, utilizing several helper functions (load_dataCSC.m, headertable.m,
 carpetplot.m, statsplot.m, powerspectrum.m, rawplot.m, MakeQCpdc.R),and save these 
 in a processed data directory.
@@ -14,12 +14,19 @@ within the SessionID folder. This text file describes the electrodes for the giv
 session, with the following structure, with one row for each CSC file.
 
 Name Type Dimension1 Dimension2 CSC# JackboxLetter Jackbox Number
+
 A1     D      15           1    CSC1       A              1
+
 A2     D      15           1    CSC2       A              2
+
 .      .       .           .      .        .              .
+
 .      .       .           .      .        .              .
+
 .      .       .           .      .        .              .
+
 .      .       .           .      .        .              .
+
 
 You will also need matlab/r2020b or later and R/4.0.3.
 
