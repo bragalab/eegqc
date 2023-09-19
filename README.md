@@ -15,6 +15,7 @@ within the SessionID folder. This text file describes the electrodes for the giv
 session, with the following structure, with one row for each CSC file.
 
 #CSC file to electrode label mapping guide
+
 #Electrode Name, Electrode Type (Depth(D), Grid(G), Strip(S), Micro(M), Physiologic(P), Tool(T), Other(X)), Dimension1, Dimension2, CSC #, Jackbox Name, Jackbox #
 
 A1     D      15           1    CSC1       A              1
