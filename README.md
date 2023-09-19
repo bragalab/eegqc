@@ -1,4 +1,5 @@
 # EEGQC
+
 The primary purpose EEGQC directory is to create quality control documents for individual iEEG datasets, utilizing
 parallel computing resources via SLURM workload manager. EEGQC.sh will search the raw data directory for unprocessed
 datasets, and then call QCpdf.sh
