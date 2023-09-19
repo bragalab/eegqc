@@ -1,6 +1,6 @@
 # EEGQC
 
-The primary purpose EEGQC directory is to create quality control documents for individual iEEG datasets, utilizing parallel computing resources via SLURM workload manager. EEGQC.sh will search the raw data directory for unprocessed datasets, and then call QCpdf.sh to create each pdf, utilizing several helper functions, and save these in a processed data directory.
+The primary purpose EEGQC directory is to create quality control documents for individual iEEG datasets, utilizing parallel computing resources via SLURM workload manager. EEGQC.sh will search the raw data directory for unprocessed datasets, and then call QCpdf.sh to create each pdf, utilizing several helper functions (load_dataCSC.m, headertable.m, carpetplot.m, statsplot.m, powerspectrum.m, rawplot.m, MakeQCpdc.R), and save these in a processed data directory.
 
 # Requirements
 
