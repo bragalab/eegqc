@@ -54,5 +54,5 @@ There are some scripts for converting data from the Stanford format to other for
 
 # Example Document
 
-[Sample_QC.pdf](https://github.com/bragalab/eegqc/files/12666314/Sample_QC.pdf)
+[Example_QC.pdf](https://github.com/bragalab/eegqc/files/12666321/Example_QC.pdf)
 
