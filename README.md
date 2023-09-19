@@ -7,7 +7,6 @@ The primary purpose EEGQC directory is to create quality control documents for i
 The raw data directory must be organized by .../ProjectID/SubjectID/SessionID/RunID/DateTimeID, which must contain CSC and NEV files within the DateTimeID folder, and a channellabels.txt file within the SessionID folder. This text file describes the electrodes for the given patient and session, with the following structure, with one row for each CSC file.
 
 Name Type Dimension1 Dimension2 CSC# JackboxLetter Jackbox Number
-
 A1     D      15           1    CSC1       A              1
 A2     D      15           1    CSC2       A              2
 .      .       .           .      .        .              .
