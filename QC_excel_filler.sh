@@ -12,7 +12,7 @@
 #Created by Chris Cyr in January 2022
 
 #Usage:
-#sbatch /projects/b1134/tools/eegqc/QC_excel_filler.sh ATHUAT 1
+#sbatch /projects/b1134/tools/eegqc/QC_excel_filler.sh SUBJECTID 1
 #Argument 1 is the Subject ID
 #Argument 2 is whether its stim data or not (STIM = 1)
 #creates text file with QC info for each data set for a given subject

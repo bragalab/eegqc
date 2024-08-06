@@ -17,7 +17,7 @@
 
 #To execute this script
 #sbatch QCpdf.sh Rawdatapath Processeddatapath
-#EXAMPLE:sbatch QCpdf.sh /projects/b1134/raw/chris_raw/ATHUAT/136986uV/2021-07-07_11-28-12 /projects/b1134/processed/eegqc/BNI/9ATHUAT/EMU0018/FIX01
+
 
 #A pdf will be saved to the processed directory 
 #/projects/b1134/processed/eegqc/ProjectID/SubjectID/SessionID/TaskID
